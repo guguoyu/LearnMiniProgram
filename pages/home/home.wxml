@@ -1,3 +1,2 @@
 <!--pages/home/home.wxml-->
-<text class="title">Hello World</text>
-<button size="mini">确认</button>
+<text>我还是从前那个少年</text>
