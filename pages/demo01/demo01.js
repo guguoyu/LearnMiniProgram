@@ -1,11 +1,21 @@
 // pages/demo01/demo01.js
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    msg:"hello miniprogram",
+    num:1000,
+    isGirl:false,
+    person: {
+      age: 18,
+      height: 174,
+      weight: 75,
+      name: "jack"
+    },
+    isChecked: true
   },
 
   /**

@@ -1,2 +1,49 @@
 <!--pages/demo01/demo01.wxml-->
 <text>时间只不过是考验</text>
+<text>测试text</text>
+
+<view>
+    测试view1
+</view>
+<view>
+    测试view2
+</view>
+
+<!-- 1. 字符串 -->
+<view>{{msg}}</view>
+<!-- 2. 数字 -->
+<view>
+    {{num}}
+</view>
+<!-- 3.  布尔值-->
+<view>
+    是否是女孩子:{{isGirl}}
+</view>
+<!-- 4.对象 -->
+<view>{{person.age}}</view>
+<view>{{person.height}}</view>
+<view>{{person.weight}}</view>
+<view>{{person.name}}</view>
+
+<!-- 5.在标签属性中使用-->
+<view data-num="{{num}}" >自定义属性</view>
+<!-- 6. -->
+<view>
+    <checkbox checked="{{isChecked}}">
+        多选
+    </checkbox> 
+</view>
+  
+
+
+  
+  
+
+
+
+  
+  
+  
+  
+  
+  
