@@ -14,6 +14,16 @@
 <view>
     字符串相加: 1 + 1 = {{'1' + '1'}}
 </view>
+<!-- 三元运算符 -->
+<view>{{11 % 2 === 0 ? '偶数' : '奇数'}}</view>
+
+<view>
+    <view wx:for="{{array}}" wx:for-item="itemName" wx:for-index="idx" wx:key="id">
+        {{idx}} : {{itemName.message}}
+    </view>
+</view>
+
+
   
   
   

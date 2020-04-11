@@ -5,7 +5,16 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    array:[
+      {
+        id:0,
+        message:"大猪蹄子"
+      },
+      {
+        id:1,
+        message:"假惺惺"
+      }
+    ]
   },
 
   /**

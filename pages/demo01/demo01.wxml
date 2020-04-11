@@ -24,7 +24,6 @@
 <view>{{person.height}}</view>
 <view>{{person.weight}}</view>
 <view>{{person.name}}</view>
-
 <!-- 5.在标签属性中使用-->
 <view data-num="{{num}}" >自定义属性</view>
 <!-- 6. -->
