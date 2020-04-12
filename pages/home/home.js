@@ -14,7 +14,13 @@ Page({
         id:1,
         message:"假惺惺"
       }
-    ]
+    ],
+    numberArray:[1,2,3,4,5],
+    person:{
+      name:'啰嗦',
+      age:18,
+      gender:"male"
+    }
   },
 
   /**

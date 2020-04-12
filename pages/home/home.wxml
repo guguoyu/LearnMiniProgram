@@ -21,6 +21,17 @@
     <view wx:for="{{array}}" wx:for-item="itemName" wx:for-index="idx" wx:key="id">
         {{idx}} : {{itemName.message}}
     </view>
+    <view wx:for="{{numberArray}}" wx:key="*this">
+        {{item}}
+    </view>
+</view>
+
+
+<!-- 对象 -->
+<view>
+    <view wx:for="{{person}}" wx:for-item="value" wx:for-index="key" wx:key="age">
+        属性:{{key}} -- 值:{{value}}
+    </view>
 </view>
 
 
