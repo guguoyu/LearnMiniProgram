@@ -33,3 +33,17 @@
     属性:{{key}} -- 值:{{value}}
   </view>
 </view>
+
+<!-- 条件渲染 -->
+
+<view>---以下为条件渲染---</view>
+
+<view wx:if="{{false}}">if</view>
+<view wx:elif="{{false}}">elif</view>
+<view wx:else="{{true}}">else</view>
+
+<view>---以下为hidden渲染---</view>
+<view hidden="{{false}}">hidden-false</view>
+<view hidden="{{true}}">hidden-true</view>
+
+<view hidden="{{false}}" style="display:false">display</view>

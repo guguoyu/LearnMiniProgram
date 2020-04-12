@@ -1,0 +1,8 @@
+
+<input bindinput="handleInput"></input>
+
+<!-- 绑定 -->
+<!-- data-operation为传入的参数 -->
+<button bindtap="handletap" data-operation="{{1}}">+</button>
+<button bindtap="handletap" data-operation="{{-1}}">-</button>
+<view>{{num}}</view>
