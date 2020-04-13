@@ -1,0 +1,9 @@
+/* pages/home2/home2.wxss */
+
+
+view {
+  width: 200rpx;
+  height: 200rpx;
+  background-color: greenyellow;
+  
+}
