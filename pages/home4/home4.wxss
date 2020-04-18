@@ -1,0 +1,8 @@
+text {
+  color: green;
+}
+
+.h-class {
+  color:red;
+}
+

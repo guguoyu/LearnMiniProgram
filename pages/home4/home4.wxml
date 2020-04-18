@@ -1,0 +1,9 @@
+<!--pages/home4/home4.wxml-->
+<text selectable decode>
+pages/home4/home4.wxml &nbsp;123 &gt; 1
+</text>
+
+<view hover-class="h-class">
+    点击我试试
+</view>
+  

@@ -1,0 +1,7 @@
+
+<!-- 
+  1. src指定加载的图片的路径
+     图片默认的宽度为320px,高度为240px
+ -->
+<image mode="aspectFit" src="https://ae01.alicdn.com/kf/H54d85d0bf3084df4b4dacd6c813d969bY.png">
+</image>
