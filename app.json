@@ -1,5 +1,10 @@
 {
   "pages": [
+    "pages/icon/icon",
+    "pages/button/button",
+    "pages/rich-text/rich-text",
+    "pages/navigator/navigator",
+    "pages/swiper-learn/swiper-learn",
     "pages/image/image",
     "pages/home4/home4",
     "pages/home3/home3",

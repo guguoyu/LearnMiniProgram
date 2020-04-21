@@ -1,0 +1,17 @@
+<!--pages/navigator/navigator.wxml-->
+<!-- 
+  open-type : 
+    1. navigator,保留当前页面，跳转到应用内的某个页面。但是不能跳到 tabbar 页面
+    2. redirect, 关闭当前页面，跳转到应用内的某个页面。但是不允许跳转到 tabbar 页面
+    3. switchTab, 跳转到 tabBar 页面，并关闭其他所有非 tabBar 页面
+    4. reLaunch, 关闭所有页面，打开到应用内的某个页面
+ -->
+<navigator url="/pages/swiper-learn/swiper-learn">轮播图首页</navigator>
+
+<navigator url="/pages/home/home">直接跳转到tabBar</navigator>
+
+<navigator open-type="redirect" url="/pages/swiper-learn/swiper-learn">轮播图首页 redirect</navigator>
+
+<navigator open-type="switchTab" url="/pages/home/home">switchTab 跳转到tabBar页面</navigator>
+
+<navigator open-type="reLaunch" url="/pages/swiper-learn/swiper-learn" >reLaunch 跳转到应用内某个页面</navigator>

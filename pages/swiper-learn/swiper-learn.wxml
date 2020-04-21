@@ -1,0 +1,23 @@
+<!-- 
+  swiper 默认 375 x 150
+  image  默认 320 x 240
+
+  swiper 高度无法实现由内容撑开
+  先要找出原图的高度和宽度 然后等比例的给swiper调整高度和宽度
+  swiper 宽度 / swiper 高度 = 原图 宽度 / 原图 高度
+  swiper高度 = swiper 宽度 * 原图 高度 / 原图 宽度
+            = 100vw * 280 / 700
+ -->
+
+<swiper indicator-dots autoplay circular interval="3000"	>
+  <swiper-item>
+    <image mode="widthFix" src="https://gw.alicdn.com/imgextra/i2/2/O1CN01tBoq8u1BsxNvBAmMQ_!!2-0-lubanu.jpg" />
+  </swiper-item>
+  <swiper-item>
+    <image mode="widthFix" src="https://aecpm.alicdn.com/simba/img/TB14ab1KpXXXXclXFXXSutbFXXX.jpg_q50.jpg" />
+  </swiper-item>
+  <swiper-item>
+    <image mode="widthFix" src="https://aecpm.alicdn.com/simba/img/TB1CWf9KpXXXXbuXpXXSutbFXXX.jpg_q50.jpg" />
+  </swiper-item>
+</swiper>
+

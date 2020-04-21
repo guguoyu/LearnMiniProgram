@@ -1,0 +1,10 @@
+/* pages/swiper-learn/swiper-learn.wxss */
+
+swiper {
+  width: 100%;
+  height: calc(100vw * 352 / 1125);
+}
+
+image{
+  width: 100%;
+}

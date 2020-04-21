@@ -1,0 +1,20 @@
+<!--pages/button/button.wxml-->
+<text>pages/button/button.wxml</text>
+<!-- size的设置 -->
+<button size="default">default 默认大小</button>
+<button size="mini">mini 小尺寸</button>
+<!-- type的设置 -->
+<button type="primary">primary 绿色</button>
+<button type="default">default 白色</button>
+<button type="warn">warn 红色</button>
+
+<!-- open-type 的使用 -->
+
+<button open-type="contact">contact</button>
+<button open-type="share">share</button>
+<button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">getPhoneNumber</button>
+<button open-type="getUserInfo" bindgetuserinfo="getUserInfo">getUserInfo</button>
+<button open-type="launchApp">launchApp</button>
+<button open-type="openSetting">openSetting</button>
+<button open-type="feedback">feedback</button>
+
