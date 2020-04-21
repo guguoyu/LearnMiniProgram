@@ -1,0 +1,7 @@
+<!--pages/radio/radio.wxml-->
+<text>pages/radio/radio.wxml</text>
+
+<radio-group bindchange="radioChange">
+  <radio value="male">男</radio>
+  <radio value="female">女</radio>
+</radio-group>
