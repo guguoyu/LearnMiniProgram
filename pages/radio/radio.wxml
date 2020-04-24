@@ -5,3 +5,5 @@
   <radio value="male">男</radio>
   <radio value="female">女</radio>
 </radio-group>
+
+<view>你选中的值:{{gender}}</view>
