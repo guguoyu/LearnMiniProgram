@@ -1,0 +1,10 @@
+<!--pages/checkbox/checkbox.wxml-->
+<text>pages/checkbox/checkbox.wxml</text>
+<checkbox-group bindchange="">
+  <checkbox >
+  
+  </checkbox>
+</checkbox-group>
+  
+
+  
