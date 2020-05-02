@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/components/components",
     "pages/checkbox/checkbox",
     "pages/radio/radio",
     "pages/icon/icon",

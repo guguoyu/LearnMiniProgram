@@ -8,42 +8,21 @@
 -->
 
 <view>
-  数值计算: 1 + 1 = {{1+1}}
+    数值计算: 1 + 1 = {{1+1}}
 </view>
 
 <view>
-  字符串相加: 1 + 1 = {{'1' + '1'}}
+    字符串相加: 1 + 1 = {{'1' + '1'}}
 </view>
 <!-- 三元运算符 -->
 <view>{{11 % 2 === 0 ? '偶数' : '奇数'}}</view>
 
 <view>
-  <view wx:for="{{array}}" wx:for-item="itemName" wx:for-index="idx" wx:key="id">
-    {{idx}} : {{itemName.message}}
-  </view>
-  <view wx:for="{{numberArray}}" wx:key="*this">
-    {{item}}
-  </view>
+    
 </view>
+  
 
 
-<!-- 对象 -->
-<view>
-  <view wx:for="{{person}}" wx:for-item="value" wx:for-index="key" wx:key="age">
-    属性:{{key}} -- 值:{{value}}
-  </view>
-</view>
-
-<!-- 条件渲染 -->
-
-<view>---以下为条件渲染---</view>
-
-<view wx:if="{{false}}">if</view>
-<view wx:elif="{{false}}">elif</view>
-<view wx:else="{{true}}">else</view>
-
-<view>---以下为hidden渲染---</view>
-<view hidden="{{false}}">hidden-false</view>
-<view hidden="{{true}}">hidden-true</view>
-
-<view hidden="{{false}}" style="display:false">display</view>
+  
+  
+  
