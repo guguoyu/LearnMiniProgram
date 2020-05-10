@@ -1,2 +1,46 @@
 <!--pages/PageLifeCycle/PageLifeCycle.wxml-->
 <text>pages/PageLifeCycle/PageLifeCycle.wxml</text>
+<navigator  url="/pages/components/components"  open-type="navigate">
+    components
+</navigator>
+
+<navigator  url="/pages/components/components"  open-type="redirect">
+    components redirect
+</navigator>
+
+<view>1</view>
+
+<view>1</view>
+<view>1</view>
+<view>1</view>
+<view>1</view>
+<view>1</view>
+<view>1</view>
+<view>1</view>
+<view>1</view>
+<view>1</view>
+<view>1</view>
+<view>1</view>
+<view>1</view>
+<view>1</view>
+<view>1</view>
+<view>1</view>
+
+<view>1</view>
+<view>1</view>
+<view>1</view>
+<view>1</view>
+
+<view>1</view>
+
+<view>1</view>
+<view>1</view>
+<view>1</view>
+<view>1</view>
+<view>1</view>
+<view>1</view>
+<view>1</view>
+<view>1</view>
+
+  
+  
